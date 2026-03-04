@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Novelpia EP Filter (Local)",
+  "version": "0.1.0",
+  "description": "Filter Novelpia TOP100 by minimum EP (local use).",
+  "permissions": ["storage"],
+  "host_permissions": ["https://novelpia.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://novelpia.com/top100*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
