@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Novelpia EP Filter
 // @namespace    https://novelpia.com
-// @version      0.1.0
+// @version      0.2.0
 // @description  노벨피아 Top100 페이지에서 최소 편수 및 완결 작품을 필터링합니다.
 // @match        https://novelpia.com/top100*
 // @run-at       document-idle
@@ -371,3 +371,4 @@
 
   boot();
 })();
+
