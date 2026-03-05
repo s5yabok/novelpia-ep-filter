@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Novelpia EP Filter (Local)",
-  "version": "0.1.0",
-  "description": "Filter Novelpia TOP100 by minimum EP (local use).",
+  "name": "노벨피아 편수 필터",
+  "version": "0.2.0",
+  "description": "노벨피아 TOP100에서 최소 편수 기준으로 필터링하고 완결작을 제외합니다.",
   "permissions": ["storage"],
   "host_permissions": ["https://novelpia.com/*"],
   "content_scripts": [
